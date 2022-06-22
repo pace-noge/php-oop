@@ -28,6 +28,6 @@ $account->balance = 100;
 $account->deposit(100);
 $account->withdraw(50);
 
-echo($account->balance);
+echo $account->balance;
 
 ?>
